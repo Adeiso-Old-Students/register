@@ -1,0 +1,108 @@
+body{
+    background-image: url(forest\ spring.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+   font-size: 80px;
+   text-align: center;
+   border: 2px solid;
+   border-radius: 20px;
+   border-spacing: 10px;
+   width: 280px;
+   margin: 0 auto;
+   border-color:blue;
+   border-width: 5px;
+   backdrop-filter: blur(5px);
+
+   
+}
+h2{
+    text-align: center;
+    color: white;
+    border: 2px solid;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    width: 270px;
+    margin: 0 auto;
+    padding: auto;
+}
+.name1{
+    color: black;
+    border:  2px solid;
+     border-radius: 10px;
+     border-color:  rgb(15, 130, 145);
+     font-size: 30px;
+     align-content: center;
+     width: 280px;
+     
+
+}
+.name1::placeholder{
+    color: gray;
+    font-size: 20px;
+    padding: 10px;
+}
+.name1:hover{
+    border-color: red;
+}
+.name2{
+    color: black;
+     border:  2px solid;
+     border-radius: 10px;
+     border-color:  rgb(15, 130, 145);
+     font-size: 30px;
+     width: 280px;
+     padding: auto;
+}
+.name2::placeholder{
+    color: gray;
+    font-size: 20px;
+    padding:10px;
+}    
+.name2:hover{
+    border-color: red;
+ }   
+.name3{
+    color: black ;
+     border:  2px solid;
+     border-radius: 10px;
+     border-color:  rgb(15, 130, 145);
+      font-size: 30px;
+      width: 280px;
+    
+}
+.name3::placeholder{
+    color: gray;
+    font-size: 20px;
+    padding:10px;
+}  
+.name3:hover{
+    border-color: red;
+ 
+}
+.name4{ 
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+.name4:hover{
+    text-decoration: underline;
+    color: blue;
+}
+h3{
+    text-align: center;
+    border: 2px solid;
+    background-color: blue;
+    border-spacing: 40px;
+    width: 300px;
+    margin: 0 auto;
+    height: 115px;
+    color: white;
+    font-size: 31px;
+    border-radius: 15px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
